@@ -21,6 +21,7 @@ namespace ConsoleApp1
             underside = Math.Sqrt(leftSum) * Math.Sqrt(rightSum);
             
             return (float) (dotProduct / underside);
+            //comment
         }
     }
 }
