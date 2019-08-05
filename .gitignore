@@ -1,5 +1,5 @@
 .idea/
 ConsoleApp1/.~lock.WineKMC.xlsx#
-ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.dll
-ConsoleApp1/obj/*
+ConsoleApp1/bin
+ConsoleApp1/obj
 ConsoleApp1/PivotSnippet.csv

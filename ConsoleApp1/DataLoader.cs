@@ -1,24 +1,15 @@
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using NPOI.HSSF.Record.Chart;
 using NPOI.XSSF.UserModel;
 
 namespace ConsoleApp1
 {
     public class DataLoader
     {
-        
 
-        //FILE PATH:
-
-        public void LoadPivot()
+        public void Load(string inputPath, string outputPath)
         {
-            var filePath = "./WineKMC.xlsx";
-            var csvFilePath = "./PivotSnippet.csv";
-            
-            XSSFWorkbook workbook = new XSSFWorkbook(new FileStream(filePath, FileMode.Open));
+            XSSFWorkbook workbook = new XSSFWorkbook(new FileStream(inputPath, FileMode.Open));
             XSSFSheet sheet = workbook.GetSheet("pivot") as XSSFSheet;
             var csv = new StringBuilder();
 
@@ -39,7 +30,7 @@ namespace ConsoleApp1
                 }
                 csv.AppendLine(line);
             }
-            File.WriteAllText(csvFilePath, csv.ToString());
+            File.WriteAllText(outputPath, csv.ToString());
 
         }
     }
