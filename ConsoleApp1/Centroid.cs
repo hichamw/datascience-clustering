@@ -1,36 +1,31 @@
 using System;
+using System.Linq;
+using ConsoleApp1.Math;
 
 namespace ConsoleApp1
 {
     public class Centroid
     {
-        private int centroidId;
+        private int _centroidId;
 
-        private double[] coordinates;
+        private double[] _coordinates;
 
-        public Centroid(int centroidId, double[] coordinates)
-        {
-            this.centroidId = centroidId;
-            this.coordinates = coordinates;
-        }
+        private Point[] _points;
 
         public void Initialize()
         {
-            Random random = new Random();
-
-            coordinates[0] = random.NextDouble() + 1;
-            coordinates[1] = random.NextDouble() + 1;
-
+            var randomNumber = new RandomNumbers();
+            this._coordinates = randomNumber.generateCentroids();
         }
 
         public void AddPoint(Point p)
         {
-
+            _points.Append(p);
         }
 
         public void ClearPointList()
         {
-
+            
         }
 
         public void CalculateCentroidPosition()

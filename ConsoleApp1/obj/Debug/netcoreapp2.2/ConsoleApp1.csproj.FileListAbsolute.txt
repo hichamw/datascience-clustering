@@ -4,7 +4,6 @@
 /Users/hicham/RiderProjects/DataScience2Clustering/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.dll
 /Users/hicham/RiderProjects/DataScience2Clustering/ConsoleApp1/bin/Debug/netcoreapp2.2/ConsoleApp1.pdb
 /Users/hicham/RiderProjects/DataScience2Clustering/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csprojAssemblyReference.cache
-/Users/hicham/RiderProjects/DataScience2Clustering/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.csproj.CoreCompileInputs.cache
 /Users/hicham/RiderProjects/DataScience2Clustering/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.AssemblyInfoInputs.cache
 /Users/hicham/RiderProjects/DataScience2Clustering/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.AssemblyInfo.cs
 /Users/hicham/RiderProjects/DataScience2Clustering/ConsoleApp1/obj/Debug/netcoreapp2.2/ConsoleApp1.dll
