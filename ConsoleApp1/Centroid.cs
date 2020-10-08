@@ -8,14 +8,17 @@ namespace ConsoleApp1
     {
         private int _centroidId;
 
-        private double[] _coordinates;
+        public double[] _coordinates;
 
         private Point[] _points;
 
-        public void Initialize()
+        public void Initialize(int dimensions, Random random)
         {
-            var randomNumber = new RandomNumbers();
-            this._coordinates = randomNumber.generateCentroids();
+            _coordinates = new double[dimensions];
+            for (int i = 0; i < dimensions; i++)
+            {
+                this._coordinates[i] = random.NextDouble();
+            }
         }
 
         public void AddPoint(Point p)

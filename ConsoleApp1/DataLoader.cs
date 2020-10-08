@@ -13,11 +13,11 @@ namespace ConsoleApp1
             XSSFSheet sheet = workbook.GetSheet("pivot") as XSSFSheet;
             var csv = new StringBuilder();
 
-            for (int row = 3; row < 36; row++)
+            for (int row = 6; row < 1006; row++)
             {
                 var line = "";
                 
-                for (int cell = 0; cell < 101; cell++)
+                for (int cell = 1; cell < 19; cell++)
                 {
                     if (row == 3)
                     {
