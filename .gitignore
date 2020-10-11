@@ -1,5 +1,8 @@
 .idea/
 ConsoleApp1/.~lock.WineKMC.xlsx#
-ConsoleApp1/bin/*
-ConsoleApp1/obj/*
+ConsoleApp1/bin
+ConsoleApp1/obj
 ConsoleApp1/PivotSnippet.csv
+/ConsoleApp1/bin/
+/ConsoleApp1/obj/
+global.json
